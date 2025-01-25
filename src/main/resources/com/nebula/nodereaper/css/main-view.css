@@ -1,0 +1,45 @@
+.pre-title {
+    -fx-font-size: larger;
+    -fx-margin: 20px 0 20px 0;
+}
+
+.path-text-field {
+    -fx-background-color: #ffffff; /* 背景颜色 */
+    -fx-background-radius: 2; /* 背景圆角 */
+    -fx-border-color: #dcdfe6; /* 边框颜色 */
+    -fx-border-width: 1; /* 边框宽度 */
+    -fx-border-radius: 2; /* 边框圆角 */
+    -fx-padding: 5; /* 内边距 */
+    -fx-text-fill: #333333; /* 文本颜色 */
+    -fx-alignment: CENTER_LEFT; /* 文本对齐方式 */
+}
+
+.path-text-field:focused {
+    -fx-border-color: #409eff;
+}
+
+.choose-btn {
+    -fx-background-color: #409eff;
+
+    -fx-background-radius: 1; /* 背景圆角 */
+    -fx-border-radius: 1;
+    -fx-text-fill: #fff;
+}
+
+.choose-btn:hover {
+    -fx-background-color: #79bbff;
+}
+.root {
+    -fx-background-color: #FFFFFF; /* 设置背景为白色 */
+}
+
+.remove-btn{
+    -fx-background-color: #67c23a;
+    -fx-background-radius: 1; /* 背景圆角 */
+    -fx-border-radius: 1;
+    -fx-text-fill: #fff;
+}
+
+.remove-btn:hover {
+    -fx-background-color: #95d475;
+}
