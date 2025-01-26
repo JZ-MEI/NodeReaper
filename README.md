@@ -13,6 +13,11 @@
 * **Windows版本**[已测试并安装成功]
 * **Debian版本**[基于wsl打包,未经测试]
 
+其他版本可以使用发行版中的jar-with-runtime包运行，提供runtime环境，无需安装jdk
+```sh
+./runtime/bin/java -jar NodeReaper.jar
+```
+
 **为什么没有提供MacOS版本？**
 
 因为作者没有经济实力另外购买一台MacOS的设备，所以暂时没办法提供dmg版本的安装包
